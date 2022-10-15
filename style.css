@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./molly.jpg');
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 30px 0px 30px;
+
+}
+.logo{
+    color: white;
+    font-size: 32px;
+}
+span{
+    color: #CD104D;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #CD104D;
+    border: 2px solid #CD104D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+button{
+    padding: 12px 30px;
+    background: #CD104D;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
